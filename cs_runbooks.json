@@ -1,0 +1,243 @@
+{
+  "executive_escalation": {
+    "display_name": "Executive escalation pressure",
+    "signals": [
+      "leadership is asking",
+      "executive team",
+      "cio asked",
+      "vp asked",
+      "board update",
+      "senior leadership",
+      "need an update for leadership",
+      "leadership wants to know",
+      "our leadership team is asking",
+      "escalated internally"
+    ],
+    "risk_level": "High",
+    "urgency": "High",
+    "psychology": [
+      "loss of confidence",
+      "pressure from leadership",
+      "timeline anxiety"
+    ],
+    "root_causes": [
+      "unclear incident timeline",
+      "poor status communication",
+      "lack of executive-safe messaging",
+      "slow or vague updates"
+    ],
+    "cs_actions": [
+      "Provide an executive-safe status update",
+      "Establish a clear next communication checkpoint",
+      "Summarize what is known, unknown, and next steps",
+      "Align internal owners before the next customer update"
+    ],
+    "reply_strategy": [
+      "Acknowledge leadership pressure directly",
+      "Provide a concise current-state summary",
+      "Avoid vague phrasing like 'engineering is looking into it' without context",
+      "Commit to a specific next update window"
+    ]
+  },
+  "technical_blocker": {
+    "display_name": "Technical blocker",
+    "signals": [
+      "not working",
+      "issue",
+      "problem",
+      "broken",
+      "still seeing gaps",
+      "not discovering",
+      "visibility gap",
+      "span configuration",
+      "vlan visibility",
+      "unable to see",
+      "not ingesting",
+      "not collecting",
+      "failing"
+    ],
+    "risk_level": "Medium-High",
+    "urgency": "High",
+    "psychology": [
+      "frustration with the product",
+      "expectation mismatch",
+      "confidence erosion"
+    ],
+    "root_causes": [
+      "configuration challenges",
+      "telemetry ingestion gaps",
+      "validation steps incomplete",
+      "deployment issue unresolved"
+    ],
+    "cs_actions": [
+      "Clarify the technical symptom in concrete terms",
+      "Define the validation path and owner for each step",
+      "Provide a resolution or mitigation checkpoint",
+      "Translate technical findings into business impact language"
+    ],
+    "reply_strategy": [
+      "Acknowledge the operational impact",
+      "State what is being checked now",
+      "Explain the validation path clearly",
+      "Set expectation for next technical update"
+    ]
+  },
+  "communication_breakdown": {
+    "display_name": "Communication breakdown",
+    "signals": [
+      "don't have much to share",
+      "no clear update",
+      "waiting for a clear resolution timeline",
+      "not getting updates",
+      "unclear what's happening",
+      "no concrete information",
+      "still waiting",
+      "haven't heard",
+      "need more concrete information",
+      "when can we expect a fix"
+    ],
+    "risk_level": "High",
+    "urgency": "High",
+    "psychology": [
+      "loss of trust",
+      "uncertainty fatigue",
+      "frustration"
+    ],
+    "root_causes": [
+      "status updates too vague",
+      "communication cadence missing",
+      "ownership unclear",
+      "incident messaging not translated for customer use"
+    ],
+    "cs_actions": [
+      "Create a clear status update format",
+      "Define update cadence and owner",
+      "Separate known facts from investigation work",
+      "Provide realistic expectation management"
+    ],
+    "reply_strategy": [
+      "Acknowledge the lack of clarity",
+      "Replace vague language with specific status points",
+      "Commit to a time-bound follow-up",
+      "Name what the customer should expect next"
+    ]
+  },
+  "passive_disengagement": {
+    "display_name": "Passive disengagement",
+    "signals": [
+      "we've been busy",
+      "haven't had time",
+      "circle back",
+      "when things calm down",
+      "other priorities",
+      "we will revisit later",
+      "not a priority right now",
+      "too much going on",
+      "maybe next month",
+      "we have not dug into it yet"
+    ],
+    "risk_level": "Medium",
+    "urgency": "Medium",
+    "psychology": [
+      "low engagement",
+      "soft avoidance",
+      "deprioritization"
+    ],
+    "root_causes": [
+      "competing priorities",
+      "insufficient perceived value",
+      "adoption friction too high",
+      "weak mutual success plan"
+    ],
+    "cs_actions": [
+      "Reduce effort required for the next step",
+      "Re-anchor on near-term value",
+      "Offer a guided session with a small scope",
+      "Create a lighter-weight success milestone"
+    ],
+    "reply_strategy": [
+      "Acknowledge bandwidth constraints",
+      "Reduce the ask to one simple next step",
+      "Tie the next step to a business outcome",
+      "Keep the tone supportive, not pushy"
+    ]
+  },
+  "renewal_risk": {
+    "display_name": "Renewal risk",
+    "signals": [
+      "before renewal",
+      "renewal discussion",
+      "reviewing our tooling",
+      "evaluating value",
+      "not using the platform",
+      "not getting enough value",
+      "revisit how the platform fits",
+      "considering alternatives",
+      "budget review",
+      "questioning renewal"
+    ],
+    "risk_level": "High",
+    "urgency": "Medium-High",
+    "psychology": [
+      "value uncertainty",
+      "skepticism",
+      "commercial risk awareness"
+    ],
+    "root_causes": [
+      "low adoption",
+      "weak workflow fit",
+      "insufficient value realization",
+      "sponsor alignment weakened"
+    ],
+    "cs_actions": [
+      "Reconnect the platform to current business outcomes",
+      "Document realized value and remaining opportunities",
+      "Align on must-win use cases before renewal",
+      "Rebuild stakeholder support with outcome-based messaging"
+    ],
+    "reply_strategy": [
+      "Acknowledge the need to evaluate value",
+      "Center the conversation on outcomes, not features",
+      "Offer a focused value review",
+      "Create a path to restore confidence before renewal"
+    ]
+  },
+  "value_perception_gap": {
+    "display_name": "Value perception gap",
+    "signals": [
+      "not seeing the value",
+      "expected more",
+      "hoped to rely on the system",
+      "not as useful as expected",
+      "doesn't fit our workflows",
+      "not helping enough",
+      "not delivering what we expected",
+      "questioning the platform"
+    ],
+    "risk_level": "Medium-High",
+    "urgency": "Medium",
+    "psychology": [
+      "disappointment",
+      "expectation mismatch",
+      "skepticism"
+    ],
+    "root_causes": [
+      "outcomes not clearly linked to business goals",
+      "expectations not set or reset properly",
+      "product capability not translated into workflow value",
+      "adoption incomplete"
+    ],
+    "cs_actions": [
+      "Clarify the original success criteria",
+      "Map current usage to business outcomes",
+      "Identify the gap between expected and realized value",
+      "Recommend the smallest meaningful path to value"
+    ],
+    "reply_strategy": [
+      "Acknowledge the expectation gap",
+      "Avoid feature-dumping",
+      "Refocus on use cases and measurable outcomes",
+      "Offer a practical value reset conversation"
+    ]
+  }
+}

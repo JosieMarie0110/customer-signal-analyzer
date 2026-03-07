@@ -39,6 +39,9 @@ Recommended response strategy:
 - Clean Gradio web interface
 - Lightweight Python implementation
 
+- <img width="1326" height="753" alt="image" src="https://github.com/user-attachments/assets/c3b7b732-23df-47e4-9305-a32a9a221522" />
+
+
 ## Technology
 
 - Python
@@ -116,7 +119,7 @@ Replace YOUR_USERNAME with your GitHub username.
 git branch -M main
 git remote add origin https://github.com/YOUR_USERNAME/customer-signal-analyzer.git
 git push -u origin main
-🎉 When done
+When done
 
 Your GitHub will show:
 

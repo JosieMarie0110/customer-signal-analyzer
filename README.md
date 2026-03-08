@@ -4,23 +4,45 @@ AI-powered analysis tool that helps Customer Success teams interpret customer co
 
 This project demonstrates how AI can augment Customer Success workflows by analyzing tone, urgency, lifecycle risk, and behavioral signals within customer messages.
 
-The tool is designed to simulate how a Senior Customer Success Manager or Technical Account Manager would interpret customer communication.
+The analyzer is designed to simulate how a Senior Customer Success Manager (CSM) or Technical Account Manager (TAM) would interpret customer communication.
 
 What the Tool Does
 
-Paste a customer email, Slack message, or support escalation and the analyzer will generate:
+Paste a customer email, Slack message, or escalation note and the analyzer generates:
 
-Customer Risk Score
+📊 Customer Risk Score
 
-AI-derived risk score based on sentiment, urgency, lifecycle context, and detected signals.
+AI-derived score based on:
+
+sentiment
+
+urgency
+
+lifecycle context
+
+detected signals
+
+This helps identify when a conversation represents real account risk, not just a support issue.
 
 Strategic Interpretation
 
-A short “Top Read” summarizing what the customer is actually signaling.
+The Top Read summarizes what the customer is actually signaling.
 
-Signal Detection
+Example signals include:
 
-The analyzer identifies key patterns such as:
+trust erosion
+
+internal pressure
+
+executive visibility
+
+value realization risk
+
+churn indicators
+
+Primary Signal Detection
+
+The analyzer detects patterns such as:
 
 Support frustration
 
@@ -38,53 +60,63 @@ Competitive evaluation
 
 Psychological Signals
 
-Interprets behavioral cues such as:
+The tool interprets behavioral cues often present in enterprise communications:
 
-Hidden frustration behind polite tone
+polite tone masking frustration
 
-Internal pressure from leadership
+internal leadership pressure
 
-Accountability anxiety
+credibility concerns
 
-Credibility concerns
+accountability anxiety
 
 Likely Root Causes
 
-AI suggests possible underlying causes for the message.
-
-Examples:
+AI suggests possible underlying causes for the situation, such as:
 
 unresolved technical issue
 
 unclear remediation timeline
 
-value perception gap
+adoption gaps
 
-lack of internal ownership
+ownership misalignment
+
+value perception problems
 
 Recommended CSM Strategy
 
-Actionable strategy suggestions similar to what a senior CSM would do.
+Provides tactical guidance similar to what an experienced CSM would do:
 
-Examples:
+Examples include:
 
-create executive update
+run internal escalation
 
-run cross-functional escalation
+build remediation timeline
 
-produce remediation plan
+create executive communication
 
 stabilize renewal narrative
 
+coordinate cross-team action plan
+
 Suggested Reply
 
-Generates a professional response draft to send to the customer.
+The tool generates a professional customer response draft that:
+
+acknowledges the concern
+
+reinforces accountability
+
+communicates next steps
+
+maintains trust
 
 Runbook Matching
 
-The system maps detected signals to predefined Customer Success playbooks.
+Detected signals are mapped to Customer Success playbooks.
 
-Example runbooks include:
+Current playbooks include:
 
 Renewal Risk
 
@@ -101,6 +133,8 @@ Competitive Evaluation
 Operational Incident
 
 Stakeholder Change
+
+Each runbook provides recommended next actions.
 
 <img width="896" height="1339" alt="image" src="https://github.com/user-attachments/assets/a57443de-63ac-4b3d-9669-cfc5e99da315" />
 <img width="1370" height="806" alt="image" src="https://github.com/user-attachments/assets/0292e14f-c071-4eca-9d81-a4701c607c9c" />

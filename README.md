@@ -1,56 +1,54 @@
-🚀 Customer Signal Analyzer
+Customer Signal Analyzer
+Project Status: Actively under development
+What it is
 
-AI-powered analysis tool that helps Customer Success teams interpret customer communications, detect hidden risk signals, and recommend strategic responses.
+Customer Signal Analyzer is a lightweight AI tool that helps Customer Success teams interpret customer communications and detect hidden risk signals.
 
-This project demonstrates how AI can augment Customer Success workflows by analyzing tone, urgency, lifecycle risk, and behavioral signals within customer messages.
+The application analyzes customer emails, Slack messages, or escalation notes and produces structured insights such as:
 
-The analyzer is designed to simulate how a Senior Customer Success Manager (CSM) or Technical Account Manager (TAM) would interpret customer communication.
+customer risk score
 
-🧠 What the Tool Does
+strategic interpretation
 
-Paste a customer email, Slack message, or escalation note and the analyzer generates:
+detected risk signals
 
-📊 Customer Risk Score
+likely root causes
 
-AI-derived score based on:
+recommended CSM actions
 
-sentiment
+suggested customer reply
 
-urgency
+matched Customer Success runbooks
 
-lifecycle context
+The goal is to simulate how an experienced Customer Success Manager or Technical Account Manager would analyze a customer message.
 
-detected signals
+Why it exists
 
-This helps identify when a conversation represents real account risk, not just a support issue.
+Customer Success professionals constantly interpret customer communications to determine:
 
-🔎 Strategic Interpretation
+Is this a simple support issue?
 
-The Top Read summarizes what the customer is actually signaling.
+Is the account at risk?
 
-Example signals include:
+Is leadership pressure involved?
 
-trust erosion
+Is this becoming a renewal problem?
 
-internal pressure
+Those signals are often subtle and buried inside otherwise polite emails.
 
-executive visibility
+This tool demonstrates how AI can help surface those signals faster and provide structured recommendations for responding.
 
-value realization risk
+What the analyzer detects
 
-churn indicators
-
-🚨 Primary Signal Detection
-
-The analyzer detects patterns such as:
+The analyzer identifies patterns commonly seen in enterprise SaaS customer relationships, including:
 
 Support frustration
 
 Trust erosion
 
-Adoption stall
-
 Executive pressure
+
+Adoption stall
 
 Value realization risk
 
@@ -58,65 +56,64 @@ Renewal risk
 
 Competitive evaluation
 
-🧩 Psychological Signals
+Credibility pressure
 
-The tool interprets behavioral cues often present in enterprise communications:
+It also interprets psychological signals such as internal pressure, accountability concerns, or polite language masking frustration.
 
-polite tone masking frustration
+Example scenario
 
-internal leadership pressure
+Account Context
 
-credibility concerns
+Enterprise account
+Renewal in 120 days
 
-accountability anxiety
+Customer Message
 
-🔍 Likely Root Causes
+"We’re still seeing the same performance issues mentioned during the last call.
+It’s becoming difficult to explain internally why this hasn't been resolved."
 
-AI suggests possible underlying causes for the situation, such as:
+Signals detected
 
-unresolved technical issue
+support frustration
 
-unclear remediation timeline
+trust erosion
 
-adoption gaps
+renewal risk
 
-ownership misalignment
+credibility pressure
 
-value perception problems
+Recommended action
 
-🧭 Recommended CSM Strategy
+escalate internally
 
-Provides tactical guidance similar to what an experienced CSM would do:
+create remediation timeline
 
-Examples include:
-
-run internal escalation
-
-build remediation timeline
-
-create executive communication
+produce executive-ready update
 
 stabilize renewal narrative
 
-coordinate cross-team action plan
+Key features
 
-✉️ Suggested Reply
+Customer Risk Score
+AI-derived score based on sentiment, urgency, lifecycle context, and detected signals.
 
-The tool generates a professional customer response draft that:
+Strategic Interpretation
+A short “Top Read” summarizing what the customer is actually signaling.
 
-acknowledges the concern
+Signal Detection
+Identifies behavioral and operational patterns in customer communications.
 
-reinforces accountability
+Root Cause Analysis
+Suggests likely drivers behind the situation.
 
-communicates next steps
+Recommended CSM Strategy
+Provides tactical guidance similar to how experienced Customer Success leaders would respond.
 
-maintains trust
+Suggested Customer Reply
+Generates a professional response draft.
 
-📘 Runbook Matching
-
-Detected signals are mapped to Customer Success playbooks.
-
-Current playbooks include:
+Runbook Matching
+Maps signals to Customer Success playbooks such as:
 
 Renewal Risk
 
@@ -129,12 +126,6 @@ Trust Erosion
 Adoption Stall
 
 Competitive Evaluation
-
-Operational Incident
-
-Stakeholder Change
-
-Each runbook provides recommended next actions.
 <img width="896" height="1339" alt="image" src="https://github.com/user-attachments/assets/a57443de-63ac-4b3d-9669-cfc5e99da315" />
 <img width="1370" height="806" alt="image" src="https://github.com/user-attachments/assets/0292e14f-c071-4eca-9d81-a4701c607c9c" />
 <img width="1350" height="811" alt="image" src="https://github.com/user-attachments/assets/8aade7fa-5b6b-4f88-9af3-3314b49e9a69" />

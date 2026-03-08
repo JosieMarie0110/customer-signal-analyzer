@@ -39,11 +39,10 @@ Recommended response strategy:
 - Clean Gradio web interface
 - Lightweight Python implementation
 
-<img width="1351" height="1158" alt="image" src="https://github.com/user-attachments/assets/2e2e9d47-af06-4a91-b326-5d7bf6d538bf" />
-<img width="1799" height="1060" alt="image" src="https://github.com/user-attachments/assets/655b3165-0f93-4453-b71b-34704438dea7" />
-<img width="1777" height="1070" alt="image" src="https://github.com/user-attachments/assets/440ce85c-ecbf-4895-9fd1-7deb745ec599" />
-
-
+<img width="896" height="1339" alt="image" src="https://github.com/user-attachments/assets/a57443de-63ac-4b3d-9669-cfc5e99da315" />
+<img width="1370" height="806" alt="image" src="https://github.com/user-attachments/assets/0292e14f-c071-4eca-9d81-a4701c607c9c" />
+<img width="1350" height="811" alt="image" src="https://github.com/user-attachments/assets/8aade7fa-5b6b-4f88-9af3-3314b49e9a69" />
+<img width="898" height="978" alt="image" src="https://github.com/user-attachments/assets/a462aee0-fd33-478d-8170-8b445b5cabd9" />
 
 
 

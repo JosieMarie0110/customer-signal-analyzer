@@ -1,4 +1,4 @@
-Customer Signal Analyzer
+🚀 Customer Signal Analyzer
 
 AI-powered analysis tool that helps Customer Success teams interpret customer communications, detect hidden risk signals, and recommend strategic responses.
 
@@ -6,7 +6,7 @@ This project demonstrates how AI can augment Customer Success workflows by analy
 
 The analyzer is designed to simulate how a Senior Customer Success Manager (CSM) or Technical Account Manager (TAM) would interpret customer communication.
 
-What the Tool Does
+🧠 What the Tool Does
 
 Paste a customer email, Slack message, or escalation note and the analyzer generates:
 
@@ -24,7 +24,7 @@ detected signals
 
 This helps identify when a conversation represents real account risk, not just a support issue.
 
-Strategic Interpretation
+🔎 Strategic Interpretation
 
 The Top Read summarizes what the customer is actually signaling.
 
@@ -40,7 +40,7 @@ value realization risk
 
 churn indicators
 
-Primary Signal Detection
+🚨 Primary Signal Detection
 
 The analyzer detects patterns such as:
 
@@ -58,7 +58,7 @@ Renewal risk
 
 Competitive evaluation
 
-Psychological Signals
+🧩 Psychological Signals
 
 The tool interprets behavioral cues often present in enterprise communications:
 
@@ -70,7 +70,7 @@ credibility concerns
 
 accountability anxiety
 
-Likely Root Causes
+🔍 Likely Root Causes
 
 AI suggests possible underlying causes for the situation, such as:
 
@@ -84,7 +84,7 @@ ownership misalignment
 
 value perception problems
 
-Recommended CSM Strategy
+🧭 Recommended CSM Strategy
 
 Provides tactical guidance similar to what an experienced CSM would do:
 
@@ -100,7 +100,7 @@ stabilize renewal narrative
 
 coordinate cross-team action plan
 
-Suggested Reply
+✉️ Suggested Reply
 
 The tool generates a professional customer response draft that:
 
@@ -112,7 +112,7 @@ communicates next steps
 
 maintains trust
 
-Runbook Matching
+📘 Runbook Matching
 
 Detected signals are mapped to Customer Success playbooks.
 
@@ -135,7 +135,6 @@ Operational Incident
 Stakeholder Change
 
 Each runbook provides recommended next actions.
-
 <img width="896" height="1339" alt="image" src="https://github.com/user-attachments/assets/a57443de-63ac-4b3d-9669-cfc5e99da315" />
 <img width="1370" height="806" alt="image" src="https://github.com/user-attachments/assets/0292e14f-c071-4eca-9d81-a4701c607c9c" />
 <img width="1350" height="811" alt="image" src="https://github.com/user-attachments/assets/8aade7fa-5b6b-4f88-9af3-3314b49e9a69" />

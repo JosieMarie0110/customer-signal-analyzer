@@ -1,138 +1,236 @@
-# Customer Signal Analyzer
+Customer Signal Analyzer
 
-AI-powered communication analysis tool designed for Customer Success teams to detect emotional tone, resistance signals, and engagement patterns in customer emails and messages.
+AI-powered analysis tool that helps Customer Success teams interpret customer communications, detect hidden risk signals, and recommend strategic responses.
 
-## Overview
+This project demonstrates how AI can augment Customer Success workflows by analyzing tone, urgency, lifecycle risk, and behavioral signals within customer messages.
 
-Customer Success Managers often need to interpret subtle signals from customer communication. This tool analyzes written messages and highlights potential indicators such as:
+The tool is designed to simulate how a Senior Customer Success Manager or Technical Account Manager would interpret customer communication.
 
-- Customer frustration
-- Passive resistance
-- Engagement level
-- Adoption risk signals
+What the Tool Does
 
-The goal is to help CSMs respond with better emotional intelligence and more strategic messaging.
+Paste a customer email, Slack message, or support escalation and the analyzer will generate:
 
-## Example
+Customer Risk Score
 
-Customer message:
+AI-derived risk score based on sentiment, urgency, lifecycle context, and detected signals.
 
-"We've just been really busy and haven't had time to review the platform yet."
+Strategic Interpretation
 
-Detected signals:
+A short “Top Read” summarizing what the customer is actually signaling.
 
-- Low engagement
-- Potential adoption stall
-- Passive resistance indicator
+Signal Detection
 
-Recommended response strategy:
+The analyzer identifies key patterns such as:
 
-- Reinforce value
-- Reduce perceived effort
-- Offer guided enablement
+Support frustration
 
-## Features
+Trust erosion
 
-- AI-based communication analysis
-- Psychological signal detection
-- Customer sentiment interpretation
-- Clean Gradio web interface
-- Lightweight Python implementation
+Adoption stall
+
+Executive pressure
+
+Value realization risk
+
+Renewal risk
+
+Competitive evaluation
+
+Psychological Signals
+
+Interprets behavioral cues such as:
+
+Hidden frustration behind polite tone
+
+Internal pressure from leadership
+
+Accountability anxiety
+
+Credibility concerns
+
+Likely Root Causes
+
+AI suggests possible underlying causes for the message.
+
+Examples:
+
+unresolved technical issue
+
+unclear remediation timeline
+
+value perception gap
+
+lack of internal ownership
+
+Recommended CSM Strategy
+
+Actionable strategy suggestions similar to what a senior CSM would do.
+
+Examples:
+
+create executive update
+
+run cross-functional escalation
+
+produce remediation plan
+
+stabilize renewal narrative
+
+Suggested Reply
+
+Generates a professional response draft to send to the customer.
+
+Runbook Matching
+
+The system maps detected signals to predefined Customer Success playbooks.
+
+Example runbooks include:
+
+Renewal Risk
+
+Executive Escalation
+
+Support Frustration
+
+Trust Erosion
+
+Adoption Stall
+
+Competitive Evaluation
+
+Operational Incident
+
+Stakeholder Change
 
 <img width="896" height="1339" alt="image" src="https://github.com/user-attachments/assets/a57443de-63ac-4b3d-9669-cfc5e99da315" />
 <img width="1370" height="806" alt="image" src="https://github.com/user-attachments/assets/0292e14f-c071-4eca-9d81-a4701c607c9c" />
 <img width="1350" height="811" alt="image" src="https://github.com/user-attachments/assets/8aade7fa-5b6b-4f88-9af3-3314b49e9a69" />
 <img width="898" height="978" alt="image" src="https://github.com/user-attachments/assets/a462aee0-fd33-478d-8170-8b445b5cabd9" />
 
+Example Output
 
+The analyzer produces structured output including:
 
+Customer Risk Score
+Strategic Interpretation
+Primary Signals
+Psychological Signals
+Likely Root Causes
+Recommended Strategy
+Suggested Customer Reply
+Matched Customer Success Runbooks
 
-## Technology
+Example Use Case
 
-- Python
-- OpenAI API
-- Gradio UI
-- dotenv for environment management
+Account Context
 
-## Run Locally
+Enterprise customer
+Renewal in 120 days
+Open performance issue
 
-Clone the repository:
+Customer Message
+
+"We’re still seeing the same performance issues mentioned during the last call. It's becoming difficult to explain internally why this hasn't been resolved."
+
+Detected signals:
+
+trust erosion
+
+support frustration
+
+renewal risk
+
+credibility pressure
+
+Recommended action:
+
+escalate internally
+
+create remediation timeline
+
+provide executive-ready update
+
+stabilize renewal narrative
+
+Tech Stack
+
+Python
+Gradio
+OpenAI API
+JSON-based playbook library
+
+Project Structure
+customer-signal-analyzer
+│
+├── app_gradio.py
+├── cs_runbooks.json
+├── requirements.txt
+├── logo.png
+└── README.md
+Installation
+
+Clone the repository
+
 git clone https://github.com/YOUR_USERNAME/customer-signal-analyzer.git
 
-
-Navigate into the folder:
-
+Navigate to the project
 
 cd customer-signal-analyzer
 
+Create a virtual environment
 
-Create virtual environment:
+python -m venv venv
 
+Activate the environment
 
-python3 -m venv venv
+Mac/Linux
+
 source venv/bin/activate
 
-
-Install dependencies:
-
+Install dependencies
 
 pip install -r requirements.txt
+Environment Variables
 
+Create a .env file in the project root.
 
-Add your API key:
-
-
-nano .env
-
-OPENAI_API_KEY="your_key_here"
-
-
-Run the application:
-
-
+OPENAI_API_KEY=your_api_key_here
+Run the App
 python app_gradio.py
 
+The application will launch locally at
 
-## Author
+http://127.0.0.1:7860
+Why This Project Exists
 
-Josephine Gutierrez  
-Customer Success | Technical Account Management | Cybersecurity
+Customer Success professionals spend a large amount of time interpreting customer tone, risk signals, and internal pressure from written communication.
 
-Save:
+This tool demonstrates how AI can:
 
-CTRL + O
-ENTER
-CTRL + X
-3️⃣ Initialize Git
-git init
-4️⃣ Add files
-git add .
-5️⃣ Commit
-git commit -m "Initial commit: Customer Signal Analyzer AI tool"
-6️⃣ Create GitHub repo
+accelerate signal detection
 
-Go to GitHub and create a repo called:
+reduce interpretation bias
 
-customer-signal-analyzer
+help prioritize risk
 
-Do NOT add README there (you already made one).
+recommend strategic response actions
 
-7️⃣ Connect repo and push
+The goal is to augment — not replace — the judgment of experienced Customer Success professionals.
 
-Replace YOUR_USERNAME with your GitHub username.
+Future Improvements
 
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/customer-signal-analyzer.git
-git push -u origin main
-When done
+Possible enhancements include:
 
-Your GitHub will show:
+account health scoring models
 
-customer-signal-analyzer
- ├── analyzer.py
- ├── scoring.py
- ├── taxonomy.py
- ├── app_gradio.py
- ├── banner.png
- ├── README.md
- ├── requirements.txt
+CRM integrations
+
+sentiment trend tracking
+
+Slack and email ingestion
+
+multi-message conversation analysis
+
+playbook prioritization
+
+escalation probability prediction

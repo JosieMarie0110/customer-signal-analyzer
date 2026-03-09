@@ -19,7 +19,7 @@ The application analyzes customer emails, Slack messages, or escalation notes an
 - suggested customer reply
 - matched Customer Success runbooks
 
-The goal is to simulate how an experienced **Customer Success Manager (CSM) or Technical Account Manager (TAM)** would analyze a customer message.
+
 
 ---
 

@@ -42,7 +42,6 @@ In many cases, customers may not communicate their concerns directly. Instead, t
 Customer Signal Analyzer looks for indicators such as:
 
 - tone shifts within a message
-
 - Passive-aggressive phrasing
 - Defensive language patterns
 - Resistance or hesitation signals

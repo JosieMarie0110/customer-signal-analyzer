@@ -10,6 +10,12 @@ Customer Signal Analyzer analyzes emails, Slack messages, and escalation notes t
 
 The goal is not to diagnose intent, but to surface patterns that may otherwise go unnoticed so Customer Success professionals can respond with greater awareness, emotional intelligence, and strategic clarity.
 
+Communication between organizations is ultimately communication between people.
+
+Emotions, cognitive bias, pressure from leadership, and internal accountability all influence how messages are written and interpreted.
+
+In many cases, customers may not communicate their concerns directly. Instead, those concerns appear through subtle language patterns.
+
 ## Examples of communication signals the analyzer may surface includes: 
 
 - Tone shifts within a message
@@ -29,32 +35,6 @@ Recognizing these cues early allows Customer Success professionals to respond mo
 
 
 ---
-
-## Why it exists: Importannce of Psychology in Business 
-
-
-Communication between organizations is ultimately communication between people.
-
-Emotions, cognitive bias, pressure from leadership, and internal accountability all influence how messages are written and interpreted.
-
-In many cases, customers may not communicate their concerns directly. Instead, those concerns appear through subtle language patterns.
-
-Customer Signal Analyzer looks for indicators such as:
-
-- tone shifts within a message
-- Passive-aggressive phrasing
-- Defensive language patterns
-- Resistance or hesitation signals
-- Emotional distancing or disengagement
-- Blame-oriented language
-- Minimization of issues
-- Projection of responsibility
-- Communication inconsistencies
-- Cognitive bias indicators
-
-These signals do not prove intent, but they can provide valuable context when interpreting a message.
-
-Recognizing these cues early allows Customer Success professionals
 
 
 ## Customer Risk Signals 

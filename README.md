@@ -75,7 +75,7 @@ After analyzing a customer message, the tool generates structured insights such 
 _________________________
 
 
-### Why Early Signal Detection Matters ## 
+## Why Early Signal Detection Matters 
 
 Communication issues rarely appear suddenly.
 

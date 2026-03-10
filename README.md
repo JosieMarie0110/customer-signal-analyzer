@@ -12,16 +12,16 @@ The goal is not to diagnose intent, but to surface patterns that may otherwise g
 
 ## Examples of communication signals the analyzer may surface includes: 
 
--tone shifts within a message
--passive-aggressive phrasing
--defensive language patterns
--resistance signals or subtle pushback
--emotional distancing or disengagement
--blame-oriented language
--minimization of issues or concerns
--projection of responsibility
--ommunication inconsistencies
--cognitive bias indicators
+- Tone shifts within a message
+- Passive-aggressive phrasing
+- Defensive language patterns
+- Resistance signals or subtle pushback
+- Emotional distancing or disengagement
+- Blame-oriented language
+- Minimization of issues or concerns
+- Projection of responsibility
+- Communication inconsistencies
+- Cognitive bias indicators
 
 These signals do not prove intent, but they can provide valuable context when interpreting a message.
 

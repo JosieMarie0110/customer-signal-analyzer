@@ -10,7 +10,7 @@ It looks for linguistic patterns that may indicate underlying emotional or psych
 
 These signals do not represent definitive conclusions about intent. Instead, they highlight patterns that may influence how a message should be interpreted and responded to.
 
-Examples of communication signals the analyzer may surface include:
+##Examples of communication signals the analyzer may surface include:
 
 tone shifts within a message
 

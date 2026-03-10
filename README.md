@@ -70,10 +70,8 @@ After analyzing a customer message, the tool generates structured insights such 
 
 
 <img width="987" height="1017" alt="image" src="https://github.com/user-attachments/assets/97c2c52a-c519-4532-949d-da72dbbc81f4" />
-<img width="949" height="1046" alt="image" src="https://github.com/user-attachments/assets/d758e172-2b36-412d-ae75-4520160605be" />
 
-
-
+<img width="972" height="1046" alt="image" src="https://github.com/user-attachments/assets/5c978961-5fc6-4c34-b67e-738365098b29" />
 
 
 _________________________

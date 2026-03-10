@@ -2,7 +2,7 @@
 ### Project Status
 Actively under development
 
-# Customer Signal Analyzer
+## Customer Signal Analyzer
 
 Customer Signal Analyzer is a communication & Psychological Signal Detection
 

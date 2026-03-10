@@ -3,22 +3,37 @@
 ### Project Status
 Actively under development
 
----
+Customer Signal Analyzer is a communication & Psychological Signal Detection
 
-## What it is
+It looks for linguistic patterns that may indicate underlying emotional or psychological dynamics in written communication.
 
-Customer Signal Analyzer is a lightweight AI tool that helps Customer Success teams interpret customer communications and detect hidden risk signals.
+These signals do not represent definitive conclusions about intent. Instead, they highlight patterns that may influence how a message should be interpreted and responded to.
 
-The application analyzes customer emails, Slack messages, or escalation notes and produces structured insights such as:
+Examples of communication signals the analyzer may surface include:
 
-- customer risk score
-- strategic interpretation
-- detected risk signals
-- likely root causes
-- recommended CSM actions
-- suggested customer reply
-- matched Customer Success runbooks
+tone shifts within a message
 
+passive-aggressive phrasing
+
+defensive language patterns
+
+resistance signals or subtle pushback
+
+emotional distancing or disengagement
+
+blame-oriented language
+
+minimization of issues or concerns
+
+projection of responsibility
+
+communication inconsistencies
+
+cognitive bias indicators
+
+In many cases, these signals appear subtly and may be difficult to detect in the moment. When overlooked, they can compound over time and lead to strained communication or damaged rapport.
+
+By surfacing these cues earlier, the analyzer helps Customer Success professionals respond more thoughtfully and maintain healthier working relationships.
 
 
 ---
@@ -37,6 +52,68 @@ These signals are often subtle and buried inside otherwise polite emails.
 This project demonstrates how AI can help surface those signals faster and provide structured recommendations for responding.
 
 ---
+
+Business Context
+
+Customer-facing roles require strong communication awareness because the emotional tone of interactions often influences how business relationships evolve.
+
+Small signals in communication can sometimes indicate larger underlying dynamics such as:
+
+internal pressure within the customer organization
+
+leadership scrutiny or accountability concerns
+
+frustration with product adoption
+
+uncertainty about realized value
+
+shifting expectations or priorities
+
+When these dynamics are detected early, Customer Success teams can respond more strategically and prevent misunderstandings from escalating.
+
+Customer Success Signal Detection
+
+Beyond communication tone, the analyzer also evaluates patterns commonly seen in enterprise SaaS customer relationships.
+
+These include signals such as:
+
+support frustration
+
+trust erosion
+
+executive pressure
+
+adoption stall
+
+value realization risk
+
+renewal risk
+
+competitive evaluation
+
+credibility pressure
+
+These signals are often embedded inside otherwise polite or neutral communication.
+
+The analyzer helps surface these patterns earlier so Customer Success Managers can interpret the situation more clearly and respond with greater strategic awareness.
+
+Why Communication Psychology Matters in Customer Success
+
+Customer Success is not only about product knowledge or operational workflows. Much of the work involves interpreting human communication and navigating complex professional relationships.
+
+Understanding psychological signals in communication can help CSMs:
+
+detect tension before it escalates
+
+maintain trust during difficult conversations
+
+respond with greater emotional intelligence
+
+avoid misinterpreting tone or intent
+
+preserve rapport in long-term partnerships
+
+The goal of Customer Signal Analyzer is to support that process by helping surface signals that may otherwise go unnoticed.
 
 ## Key capabilities
 

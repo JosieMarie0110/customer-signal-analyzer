@@ -69,9 +69,11 @@ After analyzing a customer message, the tool generates structured insights such 
 - Matched Customer Success Runbooks
 
 
-<img width="987" height="1017" alt="image" src="https://github.com/user-attachments/assets/97c2c52a-c519-4532-949d-da72dbbc81f4" />
+<img width="1486" height="1511" alt="image" src="https://github.com/user-attachments/assets/6f9fb6e7-599d-4a48-90c3-5434825321cf" />
 
-<img width="972" height="1046" alt="image" src="https://github.com/user-attachments/assets/5c978961-5fc6-4c34-b67e-738365098b29" />
+
+<img width="972" height="1046" alt="image" src="https://github.com/user-attachments/assets/ec0c1f6d-d8bb-445c-80c7-c86945d26bd5" />
+
 
 
 _________________________

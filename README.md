@@ -67,20 +67,20 @@ These signals do not prove intent, but they can provide valuable context when in
 Recognizing these cues early allows Customer Success professionals
 
 
-###Customer Success Risk Signals
+## Customer Risk Signals 
 
 In addition to communication patterns, the analyzer also evaluates signals commonly associated with enterprise SaaS customer health.
 
 ###Examples include:
 
--support frustration
--trust erosion
--executive pressure
--adoption stall
--value realization risk
--renewal uncertainty
--competitive evaluation
--credibility pressure
+- Support frustration
+- Trust erosion
+- Executive pressure
+- Adoption stall
+- value realization risk
+- Renewal uncertainty
+- Competitive evaluation
+- Credibility pressure
 
 These signals are frequently embedded inside otherwise professional or polite communication and may not be immediately obvious.
 
@@ -90,20 +90,20 @@ The analyzer helps surface these signals and translate them into structured insi
 
 After analyzing a customer message, the tool generates structured insights such as:
 
--Customer Risk Score
--Strategic Interpretation of the Message
--Detected Communication Signals
--Likely Root Causes
--Recommended CSM Actions
--Suggested Customer Response Draft
--Matched Customer Success Runbooks
+- Customer Risk Score
+- Strategic Interpretation of the Message
+- Detected Communication Signals
+ -Likely Root Causes
+ -Recommended CSM Actions
+- Suggested Customer Response Draft
+- Matched Customer Success Runbooks
 
 <img width="896" height="1339" alt="image" src="https://github.com/user-attachments/assets/a57443de-63ac-4b3d-9669-cfc5e99da315" />
 <img width="1370" height="806" alt="image" src="https://github.com/user-attachments/assets/0292e14f-c071-4eca-9d81-a4701c607c9c" />
 <img width="1350" height="811" alt="image" src="https://github.com/user-attachments/assets/8aade7fa-5b6b-4f88-9af3-3314b49e9a69" />
 <img width="898" height="978" alt="image" src="https://github.com/user-attachments/assets/a462aee0-fd33-478d-8170-8b445b5cabd9" />
 
-Why Early Signal Detection Matters
+### Why Early Signal Detection Matters
 
 Communication issues rarely appear suddenly.
 
@@ -113,33 +113,33 @@ If these signals are missed early, they can compound and eventually lead to stra
 
 Detecting these cues earlier allows teams to:
 
-adjust tone and communication strategy
+- Adjust tone and communication strategy
 
-clarify expectations before tension escalates
+- Clarify expectations before tension escalates
 
-address concerns before they become escalations
+- Address concerns before they become escalations
 
-maintain trust with customer stakeholders
+- Maintain trust with customer stakeholders
 
 The goal of this project is to explore how AI can assist in identifying these early indicators.
 
-Example Use Cases
+### Example Context Input 
 
 Customer Signal Analyzer can be used to analyze:
 
--difficult customer emails
--escalation messages
--Slack conversations with customers
--renewal discussions
--leadership communication
--ambiguous or emotionally loaded messages
+- Difficult customer emails
+- Escalation messages
+- Slack conversations with customers
+- Renewal discussions
+- Leadership communication
+- Zmbiguous or emotionally loaded messages
 
 The output helps provide additional perspective before responding.
 
-##Tech Stack
+### Tech Stack 
 
--Python
--Gradio / Streamlit UI
--OpenAI API
--Prompt-based communication analysis
--JSON
+- Python
+- Gradio / Streamlit UI
+- OpenAI API
+- Prompt-based communication analysis
+- JSON

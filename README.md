@@ -4,13 +4,43 @@ Actively under development
 
 ## Customer Signal Analyzer
 
-Customer Signal Analyzer is a communication & Psychological Signal Detection
+A communication intelligence tool designed to help uncover psychological and behavioral signals in written customer communication.
 
-It looks for linguistic patterns that may indicate underlying emotional or psychological dynamics in written communication.
+Customer Signal Analyzer analyzes emails, Slack messages, and escalation notes to identify subtle cues that may indicate underlying tension, misalignment, or emerging customer risk.
 
-These signals do not represent definitive conclusions about intent. Instead, they highlight patterns that may influence how a message should be interpreted and responded to.
+The goal is not to diagnose intent, but to surface patterns that may otherwise go unnoticed so Customer Success professionals can respond with greater awareness, emotional intelligence, and strategic clarity.
 
 ## Examples of communication signals the analyzer may surface includes: 
+
+-tone shifts within a message
+-passive-aggressive phrasing
+-defensive language patterns
+-resistance signals or subtle pushback
+-emotional distancing or disengagement
+-blame-oriented language
+-minimization of issues or concerns
+-projection of responsibility
+-ommunication inconsistencies
+-cognitive bias indicators
+
+These signals do not prove intent, but they can provide valuable context when interpreting a message.
+
+Recognizing these cues early allows Customer Success professionals to respond more thoughtfully and prevent misunderstandings from escalating.
+
+
+---
+
+## Why it exists
+
+#Psychology in Business Communication
+
+Communication between organizations is ultimately communication between people.
+
+Emotions, cognitive bias, pressure from leadership, and internal accountability all influence how messages are written and interpreted.
+
+In many cases, customers may not communicate their concerns directly. Instead, those concerns appear through subtle language patterns.
+
+Customer Signal Analyzer looks for indicators such as:
 
 tone shifts within a message
 
@@ -18,13 +48,13 @@ passive-aggressive phrasing
 
 defensive language patterns
 
-resistance signals or subtle pushback
+resistance or hesitation signals
 
 emotional distancing or disengagement
 
 blame-oriented language
 
-minimization of issues or concerns
+minimization of issues
 
 projection of responsibility
 
@@ -32,131 +62,84 @@ communication inconsistencies
 
 cognitive bias indicators
 
-In many cases, these signals appear subtly and may be difficult to detect in the moment. When overlooked, they can compound over time and lead to strained communication or damaged rapport.
+These signals do not prove intent, but they can provide valuable context when interpreting a message.
 
-By surfacing these cues earlier, the analyzer helps Customer Success professionals respond more thoughtfully and maintain healthier working relationships.
+Recognizing these cues early allows Customer Success professionals
 
 
----
+###Customer Success Risk Signals
 
-## Why it exists
+In addition to communication patterns, the analyzer also evaluates signals commonly associated with enterprise SaaS customer health.
 
-Customer Success professionals constantly interpret customer communications to determine:
+###Examples include:
 
-- Is this a simple support issue?
-- Is the account at risk?
-- Is leadership pressure involved?
-- Is this becoming a renewal problem?
+-support frustration
+-trust erosion
+-executive pressure
+-adoption stall
+-value realization risk
+-renewal uncertainty
+-competitive evaluation
+-credibility pressure
 
-These signals are often subtle and buried inside otherwise polite emails.
+These signals are frequently embedded inside otherwise professional or polite communication and may not be immediately obvious.
 
-This project demonstrates how AI can help surface those signals faster and provide structured recommendations for responding.
+The analyzer helps surface these signals and translate them into structured insights.
 
----
+##What the Tool Produces:
 
-Business Context
+After analyzing a customer message, the tool generates structured insights such as:
 
-Customer-facing roles require strong communication awareness because the emotional tone of interactions often influences how business relationships evolve.
-
-Small signals in communication can sometimes indicate larger underlying dynamics such as:
-
-internal pressure within the customer organization
-
-leadership scrutiny or accountability concerns
-
-frustration with product adoption
-
-uncertainty about realized value
-
-shifting expectations or priorities
-
-When these dynamics are detected early, Customer Success teams can respond more strategically and prevent misunderstandings from escalating.
-
-Customer Success Signal Detection
-
-Beyond communication tone, the analyzer also evaluates patterns commonly seen in enterprise SaaS customer relationships.
-
-These include signals such as:
-
-support frustration
-
-trust erosion
-
-executive pressure
-
-adoption stall
-
-value realization risk
-
-renewal risk
-
-competitive evaluation
-
-credibility pressure
-
-These signals are often embedded inside otherwise polite or neutral communication.
-
-The analyzer helps surface these patterns earlier so Customer Success Managers can interpret the situation more clearly and respond with greater strategic awareness.
-
-Why Communication Psychology Matters in Customer Success
-
-Customer Success is not only about product knowledge or operational workflows. Much of the work involves interpreting human communication and navigating complex professional relationships.
-
-Understanding psychological signals in communication can help CSMs:
-
-detect tension before it escalates
-
-maintain trust during difficult conversations
-
-respond with greater emotional intelligence
-
-avoid misinterpreting tone or intent
-
-preserve rapport in long-term partnerships
-
-The goal of Customer Signal Analyzer is to support that process by helping surface signals that may otherwise go unnoticed.
-
-## Key capabilities
-
-The analyzer identifies patterns commonly seen in enterprise SaaS customer relationships, including:
-
-- Support frustration
-- Trust erosion
-- Executive pressure
-- Adoption stall
-- Value realization risk
-- Renewal risk
-- Competitive evaluation
-- Credibility pressure
-
-It also detects **psychological signals** such as internal pressure, accountability concerns, or polite language masking frustration.
+-Customer Risk Score
+-Strategic Interpretation of the Message
+-Detected Communication Signals
+-Likely Root Causes
+-Recommended CSM Actions
+-Suggested Customer Response Draft
+-Matched Customer Success Runbooks
 
 <img width="896" height="1339" alt="image" src="https://github.com/user-attachments/assets/a57443de-63ac-4b3d-9669-cfc5e99da315" />
 <img width="1370" height="806" alt="image" src="https://github.com/user-attachments/assets/0292e14f-c071-4eca-9d81-a4701c607c9c" />
 <img width="1350" height="811" alt="image" src="https://github.com/user-attachments/assets/8aade7fa-5b6b-4f88-9af3-3314b49e9a69" />
 <img width="898" height="978" alt="image" src="https://github.com/user-attachments/assets/a462aee0-fd33-478d-8170-8b445b5cabd9" />
 
-## Example scenario
+Why Early Signal Detection Matters
 
-### Account Context
-Enterprise account  
-Renewal in 120 days
+Communication issues rarely appear suddenly.
 
-### Customer Message
+Small signals such as defensiveness, avoidance, or subtle frustration can slowly build across multiple interactions.
 
-> "We’re still seeing the same performance issues mentioned during the last call.  
-> It’s becoming difficult to explain internally why this hasn't been resolved."
+If these signals are missed early, they can compound and eventually lead to strained relationships, escalations, or renewal risk.
 
-### Signals detected
+Detecting these cues earlier allows teams to:
 
-- support frustration
-- trust erosion
-- renewal risk
-- credibility pressure
+adjust tone and communication strategy
 
-### Recommended actions
+clarify expectations before tension escalates
 
-- escalate internally
-- create remediation timeline
-- produce executive-ready update
-- stabilize renewal narrative
+address concerns before they become escalations
+
+maintain trust with customer stakeholders
+
+The goal of this project is to explore how AI can assist in identifying these early indicators.
+
+Example Use Cases
+
+Customer Signal Analyzer can be used to analyze:
+
+-difficult customer emails
+-escalation messages
+-Slack conversations with customers
+-renewal discussions
+-leadership communication
+-ambiguous or emotionally loaded messages
+
+The output helps provide additional perspective before responding.
+
+##Tech Stack
+
+-Python
+-Gradio / Streamlit UI
+-OpenAI API
+-Prompt-based communication analysis
+-JSON

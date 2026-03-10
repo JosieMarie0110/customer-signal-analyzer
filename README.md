@@ -30,9 +30,8 @@ Recognizing these cues early allows Customer Success professionals to respond mo
 
 ---
 
-## Why it exists
+## Why it exists: Importannce of Psychology in Business 
 
-#Psychology in Business Communication
 
 Communication between organizations is ultimately communication between people.
 
@@ -42,25 +41,17 @@ In many cases, customers may not communicate their concerns directly. Instead, t
 
 Customer Signal Analyzer looks for indicators such as:
 
-tone shifts within a message
+- tone shifts within a message
 
-passive-aggressive phrasing
-
-defensive language patterns
-
-resistance or hesitation signals
-
-emotional distancing or disengagement
-
-blame-oriented language
-
-minimization of issues
-
-projection of responsibility
-
-communication inconsistencies
-
-cognitive bias indicators
+- Passive-aggressive phrasing
+- Defensive language patterns
+- Resistance or hesitation signals
+- Emotional distancing or disengagement
+- Blame-oriented language
+- Minimization of issues
+- Projection of responsibility
+- Communication inconsistencies
+- Cognitive bias indicators
 
 These signals do not prove intent, but they can provide valuable context when interpreting a message.
 
@@ -98,10 +89,12 @@ After analyzing a customer message, the tool generates structured insights such 
 - Suggested Customer Response Draft
 - Matched Customer Success Runbooks
 
-<img width="896" height="1339" alt="image" src="https://github.com/user-attachments/assets/a57443de-63ac-4b3d-9669-cfc5e99da315" />
-<img width="1370" height="806" alt="image" src="https://github.com/user-attachments/assets/0292e14f-c071-4eca-9d81-a4701c607c9c" />
-<img width="1350" height="811" alt="image" src="https://github.com/user-attachments/assets/8aade7fa-5b6b-4f88-9af3-3314b49e9a69" />
-<img width="898" height="978" alt="image" src="https://github.com/user-attachments/assets/a462aee0-fd33-478d-8170-8b445b5cabd9" />
+
+
+
+
+_________________________
+
 
 ### Why Early Signal Detection Matters
 
@@ -114,13 +107,11 @@ If these signals are missed early, they can compound and eventually lead to stra
 Detecting these cues earlier allows teams to:
 
 - Adjust tone and communication strategy
-
 - Clarify expectations before tension escalates
-
 - Address concerns before they become escalations
-
 - Maintain trust with customer stakeholders
 
+  
 The goal of this project is to explore how AI can assist in identifying these early indicators.
 
 ### Example Context Input 

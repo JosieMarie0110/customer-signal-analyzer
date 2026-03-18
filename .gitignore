@@ -1,18 +1,27 @@
+# =========================
 # Python
+# =========================
 __pycache__/
 *.pyc
 
-# virtual env
+# =========================
+# Virtual Environment
+# =========================
 venv/
 
-# env variables
+# =========================
+# Environment Variables
+# =========================
 .env
 
-# mac
+# =========================
+# macOS
+# =========================
 .DS_Store
 
-venv/
-.env
-__pycache__/
-*.pyc
-.DS_Store
+# =========================
+# Backup Files (IMPORTANT)
+# =========================
+*_backup_*.py
+*_backup_*.json
+*_backup_*.md

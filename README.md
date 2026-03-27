@@ -41,7 +41,7 @@ Recognizing these cues early allows Customer Success professionals to respond mo
 
 In addition to communication patterns, the analyzer also evaluates signals commonly associated with enterprise SaaS customer health.
 
-###Examples include:
+xamples include:
 
 - Support frustration
 - Trust erosion

@@ -56,7 +56,7 @@ These signals are frequently embedded inside otherwise professional or polite co
 
 The analyzer helps surface these signals and translate them into structured insights.
 
-##What the Tool Produces##:
+What the Tool Produces:
 
 After analyzing a customer message, the tool generates structured insights such as:
 

@@ -4,69 +4,63 @@ Actively under development
 
 ## Customer Signal Analyzer
 
-A communication intelligence tool designed to help uncover psychological and behavioral signals in written customer communication.
+A communication intelligence tool that surfaces psychological and behavioral signals in customer messages.
 
-Customer Signal Analyzer analyzes emails, Slack messages, and escalation notes to identify subtle cues that may indicate underlying tension, misalignment, or emerging customer risk.
-
-The goal is not to diagnose intent, but to surface patterns that may otherwise go unnoticed so Customer Success professionals can respond with greater awareness, emotional intelligence, and strategic clarity.
-
-Communication between organizations is ultimately communication between people.
-
-Emotions, cognitive bias, pressure from leadership, and internal accountability all influence how messages are written and interpreted.
-
-In many cases, customers may not communicate their concerns directly. Instead, those concerns appear through subtle language patterns.
-
-## Examples of communication signals the analyzer may surface includes: 
-
-- Tone shifts within a message
-- Passive-aggressive phrasing
-- Defensive language patterns
-- Resistance signals or subtle pushback
-- Emotional distancing or disengagement
-- Blame-oriented language
-- Minimization of issues or concerns
-- Projection of responsibility
-- Communication inconsistencies
-- Cognitive bias indicators
-
-These signals do not prove intent, but they can provide valuable context when interpreting a message.
-
-Recognizing these cues early allows Customer Success professionals to respond more thoughtfully and prevent misunderstandings from escalating.
-
+Analyzes emails, Slack, and escalation notes to identify patterns that may indicate tension, misalignment, or emerging risk.
 
 ---
 
+## Overview
 
-## Customer Risk Signals 
+Customers rarely state concerns directly—signals show up in how they communicate.
 
-In addition to communication patterns, the analyzer also evaluates signals commonly associated with enterprise SaaS customer health.
+This tool highlights those patterns to help Customer Success teams respond with:
+- Better awareness  
+- Stronger emotional intelligence  
+- Clearer strategy  
 
-Examples include:
+---
 
-- Support frustration
-- Trust erosion
-- Executive pressure
-- Adoption stall
-- value realization risk
-- Renewal uncertainty
-- Competitive evaluation
-- Credibility pressure
+## What It Detects
 
-These signals are frequently embedded inside otherwise professional or polite communication and may not be immediately obvious.
+- Tone shifts  
+- Passive-aggressive or defensive language  
+- Resistance or subtle pushback  
+- Disengagement or distancing  
+- Blame or responsibility shifting  
+- Communication inconsistencies  
+- Cognitive bias signals  
 
-The analyzer helps surface these signals and translate them into structured insights.
+These signals don’t prove intent—but they provide critical context.
 
-What the Tool Produces:
+---
 
-After analyzing a customer message, the tool generates structured insights such as:
+## Customer Risk Signals
 
-- Customer Risk Score
-- Strategic Interpretation of the Message
-- Detected Communication Signals
- -Likely Root Causes
- -Recommended CSM Actions
-- Suggested Customer Response Draft
-- Matched Customer Success Runbooks
+Also surfaces common SaaS risk indicators:
+
+- Support frustration  
+- Trust erosion  
+- Executive pressure  
+- Adoption stall  
+- Value realization risk  
+- Renewal uncertainty  
+- Competitive evaluation  
+
+---
+
+## Output
+
+Generates structured insights:
+
+- Customer risk score  
+- Message interpretation  
+- Detected signals + likely causes  
+- Recommended CSM actions  
+- Suggested response draft  
+- Matched playbooks  
+
+---
 
 
 <img width="1486" height="1511" alt="image" src="https://github.com/user-attachments/assets/6f9fb6e7-599d-4a48-90c3-5434825321cf" />
@@ -75,115 +69,34 @@ After analyzing a customer message, the tool generates structured insights such 
 <img width="972" height="1046" alt="image" src="https://github.com/user-attachments/assets/ec0c1f6d-d8bb-445c-80c7-c86945d26bd5" />
 
 
+## Why It Matters
 
-_________________________
+Communication issues build gradually—not suddenly.
 
-
-## Why Early Signal Detection Matters 
-
-Communication issues rarely appear suddenly.
-
-Small signals such as defensiveness, avoidance, or subtle frustration can slowly build across multiple interactions.
-
-If these signals are missed early, they can compound and eventually lead to strained relationships, escalations, or renewal risk.
-
-Detecting these cues earlier allows teams to:
-
-- Adjust tone and communication strategy
-- Clarify expectations before tension escalates
-- Address concerns before they become escalations
-- Maintain trust with customer stakeholders
-
-  
-The goal of this project is to explore how AI can assist in identifying these early indicators.
-
-### Example Context Input 
-
-Customer Signal Analyzer can be used to analyze:
-
-- Difficult customer emails
-- Escalation messages
-- Slack conversations with customers
-- Renewal discussions
-- Leadership communication
-- Zmbiguous or emotionally loaded messages
-
-The output helps provide additional perspective before responding.
-
-### Tech Stack 
-
-- Python
-- Gradio / Streamlit UI
-- OpenAI API
-- Prompt-based communication analysis
-- JSON
-
-
-
-## Quick Start
-
-
-Clone the repository:
-
-
-git clone https://github.com/YOUR_USERNAME/customer-signal-analyzer.git
-
-cd customer-signal-analyzer
-
-
-Create and activate a virtual environment:
-
-
-python3 -m venv venv
-source venv/bin/activate
-
-
-Install the required dependencies:
-
-
-pip install -r requirements.txt
-
+Early signal detection helps:
+- Adjust communication approach  
+- Prevent escalation  
+- Clarify expectations  
+- Maintain trust  
 
 ---
 
-## Running the Application
+## Example Use
 
-Start the application locally:
-
-
-python app.py
-
-
-Once the application starts, you should see a message similar to:
-
-
-Running on local URL: http://127.0.0.1:7860
-
-
-Open the URL in your browser to use the tool.
+Analyze:
+- Customer emails  
+- Slack conversations  
+- Escalations  
+- Renewal discussions  
+- Leadership messages  
 
 ---
 
-## Environment Setup (Optional)
+## Tech Stack
 
-If using the OpenAI API, set your API key as an environment variable before running the application:
+- Python  
+- Gradio / Streamlit  
+- OpenAI API  
+- Prompt-based analysis  
 
 
-export OPENAI_API_KEY="your_api_key_here"
-
-
-You can add this to your shell configuration file (`.zshrc` or `.bashrc`) if you plan to run the tool frequently.
-
----
-
-## Example Usage
-
-1. Paste a customer email, Slack message, or escalation note into the analyzer.
-2. Click **Analyze Communication**.
-3. Review the structured insights generated by the tool, including:
-
-- detected communication signals
-- customer risk indicators
-- strategic interpretation
-- recommended CSM actions
-- suggested response draft

@@ -69,28 +69,10 @@ Generates structured insights:
 <img width="972" height="1046" alt="image" src="https://github.com/user-attachments/assets/ec0c1f6d-d8bb-445c-80c7-c86945d26bd5" />
 
 
-## Why It Matters
 
-Communication issues build gradually—not suddenly.
-
-Early signal detection helps:
-- Adjust communication approach  
-- Prevent escalation  
-- Clarify expectations  
-- Maintain trust  
 
 ---
 
-## Example Use
-
-Analyze:
-- Customer emails  
-- Slack conversations  
-- Escalations  
-- Renewal discussions  
-- Leadership messages  
-
----
 
 ## Tech Stack
 
